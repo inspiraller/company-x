@@ -1,0 +1,39 @@
+{
+  "name": "company-x",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "test:watch": "vitest --coverage",
+    "test": "vitest --coverage --watch=false"
+  },
+  "dependencies": {
+    "@hookform/error-message": "^2.0.1",
+    "@hookform/resolvers": "^3.10.0",
+    "next": "15.1.6",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-hook-form": "^7.54.2",
+    "zod": "^3.24.1"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@testing-library/dom": "^10.4.0",
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^16.2.0",
+    "@testing-library/user-event": "^14.6.1",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "@vitejs/plugin-react": "^4.3.4",
+    "@vitest/coverage-istanbul": "^3.0.5",
+    "eslint": "^9",
+    "eslint-config-next": "15.1.6",
+    "jsdom": "^26.0.0",
+    "typescript": "^5",
+    "vitest": "^3.0.5"
+  }
+}
